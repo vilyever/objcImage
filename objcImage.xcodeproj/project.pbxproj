@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6403DF1D545C2B00652BAC /* objcImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403DE1D545C2B00652BAC /* objcImage.h */; };
+		FE6403DF1D545C2B00652BAC /* objcImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403DE1D545C2B00652BAC /* objcImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6403E61D545C2B00652BAC /* objcImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6403DB1D545C2B00652BAC /* objcImage.framework */; };
 		FE6403EB1D545C2B00652BAC /* objcImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6403EA1D545C2B00652BAC /* objcImageTests.m */; };
+		FE6403F81D545C4400652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6403F51D545C4400652BAC /* Cartfile */; };
+		FE6403F91D545C4400652BAC /* objcImage.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6403F61D545C4400652BAC /* objcImage.podspec */; };
+		FE6403FD1D545C6D00652BAC /* UIImage+VDFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403FB1D545C6D00652BAC /* UIImage+VDFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6403FE1D545C6D00652BAC /* UIImage+VDFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6403FC1D545C6D00652BAC /* UIImage+VDFile.m */; };
+		FE6404011D545C9800652BAC /* UIImage+VDColor.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403FF1D545C9800652BAC /* UIImage+VDColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6404021D545C9800652BAC /* UIImage+VDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404001D545C9800652BAC /* UIImage+VDColor.m */; };
+		FE6404051D545D3B00652BAC /* UIImage+VDResize.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6404031D545D3B00652BAC /* UIImage+VDResize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6404061D545D3B00652BAC /* UIImage+VDResize.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404041D545D3B00652BAC /* UIImage+VDResize.m */; };
+		FE6404091D545D8000652BAC /* UIImage+VDView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6404071D545D8000652BAC /* UIImage+VDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64040A1D545D8000652BAC /* UIImage+VDView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404081D545D8000652BAC /* UIImage+VDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,17 @@
 		FE6403E51D545C2B00652BAC /* objcImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6403EA1D545C2B00652BAC /* objcImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcImageTests.m; sourceTree = "<group>"; };
 		FE6403EC1D545C2B00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6403F51D545C4400652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6403F61D545C4400652BAC /* objcImage.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcImage.podspec; sourceTree = "<group>"; };
+		FE6403F71D545C4400652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6403FB1D545C6D00652BAC /* UIImage+VDFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDFile.h"; sourceTree = "<group>"; };
+		FE6403FC1D545C6D00652BAC /* UIImage+VDFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDFile.m"; sourceTree = "<group>"; };
+		FE6403FF1D545C9800652BAC /* UIImage+VDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDColor.h"; sourceTree = "<group>"; };
+		FE6404001D545C9800652BAC /* UIImage+VDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDColor.m"; sourceTree = "<group>"; };
+		FE6404031D545D3B00652BAC /* UIImage+VDResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDResize.h"; sourceTree = "<group>"; };
+		FE6404041D545D3B00652BAC /* UIImage+VDResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDResize.m"; sourceTree = "<group>"; };
+		FE6404071D545D8000652BAC /* UIImage+VDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDView.h"; sourceTree = "<group>"; };
+		FE6404081D545D8000652BAC /* UIImage+VDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,9 @@
 				FE6403DD1D545C2B00652BAC /* objcImage */,
 				FE6403E91D545C2B00652BAC /* objcImageTests */,
 				FE6403DC1D545C2B00652BAC /* Products */,
+				FE6403F51D545C4400652BAC /* Cartfile */,
+				FE6403F61D545C4400652BAC /* objcImage.podspec */,
+				FE6403F71D545C4400652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +97,14 @@
 			children = (
 				FE6403DE1D545C2B00652BAC /* objcImage.h */,
 				FE6403E01D545C2B00652BAC /* Info.plist */,
+				FE6403FB1D545C6D00652BAC /* UIImage+VDFile.h */,
+				FE6403FC1D545C6D00652BAC /* UIImage+VDFile.m */,
+				FE6403FF1D545C9800652BAC /* UIImage+VDColor.h */,
+				FE6404001D545C9800652BAC /* UIImage+VDColor.m */,
+				FE6404031D545D3B00652BAC /* UIImage+VDResize.h */,
+				FE6404041D545D3B00652BAC /* UIImage+VDResize.m */,
+				FE6404071D545D8000652BAC /* UIImage+VDView.h */,
+				FE6404081D545D8000652BAC /* UIImage+VDView.m */,
 			);
 			path = objcImage;
 			sourceTree = "<group>";
@@ -93,7 +125,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6404051D545D3B00652BAC /* UIImage+VDResize.h in Headers */,
+				FE6404091D545D8000652BAC /* UIImage+VDView.h in Headers */,
+				FE6403FD1D545C6D00652BAC /* UIImage+VDFile.h in Headers */,
 				FE6403DF1D545C2B00652BAC /* objcImage.h in Headers */,
+				FE6404011D545C9800652BAC /* UIImage+VDColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6403F81D545C4400652BAC /* Cartfile in Resources */,
+				FE6403F91D545C4400652BAC /* objcImage.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64040A1D545D8000652BAC /* UIImage+VDView.m in Sources */,
+				FE6404061D545D3B00652BAC /* UIImage+VDResize.m in Sources */,
+				FE6403FE1D545C6D00652BAC /* UIImage+VDFile.m in Sources */,
+				FE6404021D545C9800652BAC /* UIImage+VDColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

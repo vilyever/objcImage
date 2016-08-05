@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char objcImageVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcImage/PublicHeader.h>
 
-
+#import <objcImage/UIImage+VDFile.h>
+#import <objcImage/UIImage+VDColor.h>
+#import <objcImage/UIImage+VDResize.h>
+#import <objcImage/UIImage+VDView.h">
