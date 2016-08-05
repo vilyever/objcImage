@@ -20,3 +20,9 @@ FOUNDATION_EXPORT const unsigned char objcImageVersionString[];
 #import <objcImage/UIImage+VDColor.h>
 #import <objcImage/UIImage+VDResize.h>
 #import <objcImage/UIImage+VDView.h">
+
+#pragma mark VDImageFromFile
+#if !VDImageFromFile
+#define VDImageFromFile(filePath, type) \
+[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filePath ofType:type]]
+#endif
