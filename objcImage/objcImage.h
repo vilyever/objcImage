@@ -19,7 +19,7 @@ FOUNDATION_EXPORT const unsigned char objcImageVersionString[];
 #import <objcImage/UIImage+VDFile.h>
 #import <objcImage/UIImage+VDColor.h>
 #import <objcImage/UIImage+VDResize.h>
-#import <objcImage/UIImage+VDView.h">
+#import <objcImage/UIImage+VDView.h>
 
 #pragma mark VDImageFromFile
 #if !VDImageFromFile
