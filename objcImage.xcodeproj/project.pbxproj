@@ -20,6 +20,8 @@
 		FE6404061D545D3B00652BAC /* UIImage+VDResize.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404041D545D3B00652BAC /* UIImage+VDResize.m */; };
 		FE6404091D545D8000652BAC /* UIImage+VDView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6404071D545D8000652BAC /* UIImage+VDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64040A1D545D8000652BAC /* UIImage+VDView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404081D545D8000652BAC /* UIImage+VDView.m */; };
+		FEE88FA51D63F62A00C73B9E /* UIImage+VDOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE88FA31D63F62A00C73B9E /* UIImage+VDOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEE88FA61D63F62A00C73B9E /* UIImage+VDOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE88FA41D63F62A00C73B9E /* UIImage+VDOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		FE6404041D545D3B00652BAC /* UIImage+VDResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDResize.m"; sourceTree = "<group>"; };
 		FE6404071D545D8000652BAC /* UIImage+VDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDView.h"; sourceTree = "<group>"; };
 		FE6404081D545D8000652BAC /* UIImage+VDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDView.m"; sourceTree = "<group>"; };
+		FEE88FA31D63F62A00C73B9E /* UIImage+VDOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VDOrientation.h"; sourceTree = "<group>"; };
+		FEE88FA41D63F62A00C73B9E /* UIImage+VDOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VDOrientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				FE6404041D545D3B00652BAC /* UIImage+VDResize.m */,
 				FE6404071D545D8000652BAC /* UIImage+VDView.h */,
 				FE6404081D545D8000652BAC /* UIImage+VDView.m */,
+				FEE88FA31D63F62A00C73B9E /* UIImage+VDOrientation.h */,
+				FEE88FA41D63F62A00C73B9E /* UIImage+VDOrientation.m */,
 			);
 			path = objcImage;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				FE6404051D545D3B00652BAC /* UIImage+VDResize.h in Headers */,
 				FE6404091D545D8000652BAC /* UIImage+VDView.h in Headers */,
 				FE6403FD1D545C6D00652BAC /* UIImage+VDFile.h in Headers */,
+				FEE88FA51D63F62A00C73B9E /* UIImage+VDOrientation.h in Headers */,
 				FE6403DF1D545C2B00652BAC /* objcImage.h in Headers */,
 				FE6404011D545C9800652BAC /* UIImage+VDColor.h in Headers */,
 			);
@@ -233,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE88FA61D63F62A00C73B9E /* UIImage+VDOrientation.m in Sources */,
 				FE64040A1D545D8000652BAC /* UIImage+VDView.m in Sources */,
 				FE6404061D545D3B00652BAC /* UIImage+VDResize.m in Sources */,
 				FE6403FE1D545C6D00652BAC /* UIImage+VDFile.m in Sources */,
@@ -420,6 +428,7 @@
 				FE6403F11D545C2B00652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6403F21D545C2B00652BAC /* Build configuration list for PBXNativeTarget "objcImageTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				FE6403F41D545C2B00652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
